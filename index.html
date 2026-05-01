@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Lauren Gottlieb is a Vanderbilt computer science and applied mathematics student building software across quantitative finance, data analytics, and web tools."
+    />
+    <title>Lauren Gottlieb | CS + Applied Math Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Lauren Gottlieb home">
+        <span class="brand-mark">LG</span>
+        <span>Lauren Gottlieb</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#resume">Resume</a>
+        <a href="#academics">Academics</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow">Vanderbilt CS + Applied Mathematics</p>
+          <h1>CS + applied math student building useful software.</h1>
+          <p class="hero-text">
+            I am interested in quantitative finance, data, automation, and product-minded
+            engineering.
+          </p>
+          <div class="hero-actions" aria-label="Primary links">
+            <a class="button primary" href="#work">View projects</a>
+            <a class="button secondary" href="#resume">View resume</a>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="Portfolio highlights">
+          <div class="signal-card">
+            <span class="signal-label">Current focus</span>
+            <strong>Quantitative finance, software development, and applied data work</strong>
+          </div>
+          <div class="metric-grid">
+            <div>
+              <strong>3.9</strong>
+              <span>Vanderbilt GPA</span>
+            </div>
+            <div>
+              <strong>2028</strong>
+              <span>Expected graduation</span>
+            </div>
+            <div>
+              <strong>200+</strong>
+              <span>Students supported by chapter web tools</span>
+            </div>
+            <div>
+              <strong>300+</strong>
+              <span>Campers and staff coordinated in programs</span>
+            </div>
+          </div>
+          <div class="focus-list" aria-label="Portfolio focus areas">
+            <span>Portfolio focus</span>
+            <ul>
+              <li>Applied math and quantitative finance</li>
+              <li>Full-stack product development</li>
+              <li>Data analysis and automation</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell intro-grid" aria-label="Profile summary">
+        <div>
+          <p class="section-kicker">Profile</p>
+          <h2>Technical work with a practical angle.</h2>
+        </div>
+        <p>
+          My projects connect CS and applied math with real users: pricing tools, personalized
+          market briefings, organization websites, and product prototypes.
+        </p>
+      </section>
+
+      <section class="section-shell" id="work">
+        <div class="section-heading">
+          <p class="section-kicker">Selected Work</p>
+          <h2>Projects</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card featured project-quantum">
+            <div class="project-visual screenshot-visual">
+              <img
+                src="assets/vqi-app-screenshot.png"
+                alt="Screenshot of the VQI Quantum Option Pricing App interface"
+              />
+            </div>
+            <div class="project-content">
+              <p class="project-type">Full-stack quantum finance app</p>
+              <h3>VQI Quantum Option Pricing App</h3>
+              <p>
+                Full-stack app for pricing European, American, and Asian equity options with
+                quantum and classical methods.
+              </p>
+              <ul class="tag-list" aria-label="Technologies">
+                <li>Python</li>
+                <li>FastAPI</li>
+                <li>Qiskit</li>
+                <li>JavaScript</li>
+                <li>Render</li>
+              </ul>
+              <div class="link-row">
+                <a href="https://vqifinanceapp.onrender.com" target="_blank" rel="noreferrer">Live app</a>
+                <a href="https://github.com/lgotts5/vqifinanceapp" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card project-briefing">
+            <div class="project-visual briefing">
+              <span>Daily Market Briefing</span>
+              <div class="ticker-tape">
+                <i></i><i></i><i></i><i></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <p class="project-type">Python automation script</p>
+              <h3>Personalized Market Briefing Updater</h3>
+              <p>
+                Python updater that turns market data and headlines into a daily briefing with
+                regime signals, cross-asset tables, and finance takeaways.
+              </p>
+              <ul class="tag-list" aria-label="Technologies">
+                <li>Python</li>
+                <li>yfinance</li>
+                <li>HTML parsing</li>
+                <li>Requests</li>
+                <li>Markdown</li>
+              </ul>
+              <div class="link-row">
+                <a href="briefing.html" target="_blank" rel="noreferrer">View sample briefing</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card project-community">
+            <div class="project-visual screenshot-visual">
+              <img
+                src="assets/tridelta-screenshot.png"
+                alt="Screenshot of the Vanderbilt Tri Delta chapter website"
+              />
+            </div>
+            <div class="project-content">
+              <p class="project-type">Chapter operations website</p>
+              <h3>Vanderbilt Tri Delta Chapter Website</h3>
+              <p>
+                Chapter hub for announcements, documents, calendar updates, leadership information,
+                and member resources.
+              </p>
+              <ul class="tag-list" aria-label="Technologies">
+                <li>React</li>
+                <li>Vite</li>
+                <li>Git</li>
+                <li>Lovable</li>
+              </ul>
+              <div class="link-row">
+                <a href="https://vandytridelta.lovable.app" target="_blank" rel="noreferrer">Live site</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card project-product">
+            <div class="project-visual screenshot-visual">
+              <img
+                src="assets/laundrylink-screenshot.png"
+                alt="Screenshot of the VandyLaundryLink prototype"
+              />
+            </div>
+            <div class="project-content">
+              <p class="project-type">Product prototype</p>
+              <h3>VandyLaundryLink</h3>
+              <p>
+                Figma Sites prototype for real-time laundry machine status and alerts for
+                Vanderbilt students.
+              </p>
+              <ul class="tag-list" aria-label="Technologies">
+                <li>Figma Sites</li>
+                <li>UX</li>
+                <li>Product thinking</li>
+              </ul>
+              <div class="link-row">
+                <a href="https://hire-zero-86492255.figma.site" target="_blank" rel="noreferrer">Live prototype</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell two-column" id="experience">
+        <div class="section-heading sticky-heading">
+          <p class="section-kicker">Experience</p>
+          <h2>Experience across software, data, and teaching.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <p class="date">Jan 2026 - Present</p>
+            <h3>Incoming Software Development Intern, ADM Investor Services</h3>
+            <p>Incoming software development role in financial services technology.</p>
+          </article>
+          <article class="timeline-item">
+            <p class="date">Mar 2026 - Apr 2026</p>
+            <h3>Citi Early Identification Program, Quantitative Analysis</h3>
+            <p>
+              Selected for a competitive quantitative analysis mentorship program.
+            </p>
+          </article>
+          <article class="timeline-item">
+            <p class="date">Nov 2025 - Feb 2026</p>
+            <h3>Beats by Dre Data Analytics Extern</h3>
+            <p>
+              Analyzes consumer feedback with NLP tools and statistical methods.
+            </p>
+          </article>
+          <article class="timeline-item">
+            <p class="date">Aug 2025 - Jan 2026</p>
+            <h3>Teaching Assistant, Vanderbilt Computer Science</h3>
+            <p>
+              Supports Program Design and Data Structures students through office hours, grading,
+              and debugging help.
+            </p>
+          </article>
+          <article class="timeline-item">
+            <p class="date">May 2025 - Aug 2025</p>
+            <h3>AI Intern, SoftSnow.ai</h3>
+            <p>
+              Evaluated AI workflows and tested automation tools including Cassidy AI and Zapier.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell resume-section" id="resume">
+        <div class="section-heading resume-heading">
+          <div>
+            <p class="section-kicker">Resume</p>
+            <h2>Resume at a glance.</h2>
+          </div>
+          <a class="button secondary" href="assets/Lauren_Gottlieb_Resume.pdf" target="_blank" rel="noreferrer">
+            Open full screen
+          </a>
+        </div>
+        <div class="resume-frame" aria-label="Embedded resume PDF">
+          <object data="assets/Lauren_Gottlieb_Resume.pdf#toolbar=0" type="application/pdf">
+            <p>
+              Your browser cannot display the embedded resume here.
+              <a href="assets/Lauren_Gottlieb_Resume.pdf" target="_blank" rel="noreferrer">Open the resume PDF</a>.
+            </p>
+          </object>
+        </div>
+      </section>
+
+      <section class="section-shell skills-band" id="academics">
+        <div class="section-heading">
+          <p class="section-kicker">Academics + Skills</p>
+          <h2>Computer science, applied math, and tools for building.</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-block">
+            <h3>Education</h3>
+            <p>
+              Vanderbilt University, B.S. in Computer Science and Applied Mathematics with a minor
+              in Engineering Management. Expected May 2028.
+            </p>
+          </div>
+          <div class="skill-block">
+            <h3>Relevant coursework</h3>
+            <p>
+              Data Structures, Intermediate Software Design, Algorithms, Computer Architecture,
+              Differential Equations, Linear Algebra, Multivariable Calculus, Probability and Statistics.
+            </p>
+          </div>
+          <div class="skill-block">
+            <h3>Programming</h3>
+            <p>Java, Python, C++, C, ASM, HTML, CSS, JavaScript, Git/GitHub, Qiskit.</p>
+          </div>
+          <div class="skill-block">
+            <h3>Tools</h3>
+            <p>
+              Linux, macOS, Windows, IntelliJ IDEA, CLion, VS Code, Microsoft Power Platform,
+              Cassidy AI, Lovable, Figma Make, Claude Code, Gemini, Perplexity.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell contact-section" id="contact">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2>Open to software, quant, data, and AI-oriented opportunities.</h2>
+          <p>
+            I am especially interested in roles where I can use technical depth, clear communication,
+            and product judgment to build useful systems.
+          </p>
+        </div>
+        <div class="contact-stack">
+          <form class="contact-form" id="contact-form">
+            <label>
+              Name
+              <input name="name" type="text" autocomplete="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Tell me what you would like to connect about." required></textarea>
+            </label>
+            <button class="button primary" type="submit">Send email</button>
+          </form>
+          <div class="contact-card" aria-label="Profile links">
+            <a href="mailto:laurengotts5@gmail.com" target="_blank" rel="noreferrer">laurengotts5@gmail.com</a>
+            <a href="https://github.com/lgotts5" target="_blank" rel="noreferrer">github.com/lgotts5</a>
+            <a href="https://www.linkedin.com/in/lauren-r-gottlieb/" target="_blank" rel="noreferrer">linkedin.com/in/lauren-r-gottlieb</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Lauren Gottlieb</span>
+      <span>Computer Science + Applied Mathematics</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Rendered sample output from Lauren Gottlieb's personalized market briefing updater."
+    />
+    <title>Sample Market Briefing | Lauren Gottlieb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="briefing.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#top" aria-label="Lauren Gottlieb home">
+        <span class="brand-mark">LG</span>
+        <span>Lauren Gottlieb</span>
+      </a>
+      <nav class="site-nav briefing-nav" aria-label="Briefing navigation">
+        <a href="index.html#work">Back to portfolio</a>
+      </nav>
+    </header>
+
+    <main class="briefing-page">
+      <section class="section-shell briefing-hero">
+        <p class="section-kicker">Project Sample</p>
+        <h1>Rendered market briefing.</h1>
+        <p>
+          This is sample output from the Python updater: live market tables, macro notes,
+          regime signals, headline analysis, and quant/finance takeaways rendered directly
+          in the website.
+        </p>
+      </section>
+
+      <article class="section-shell briefing-document" id="briefing-output" aria-live="polite">
+        <p>Loading briefing...</p>
+      </article>
+    </main>
+
+    <script src="briefing.js"></script>
+  </body>
+</html>

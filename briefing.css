@@ -1,0 +1,126 @@
+.briefing-page {
+  padding-bottom: 80px;
+}
+
+.briefing-hero {
+  padding: 72px 0 40px;
+}
+
+.briefing-hero h1 {
+  max-width: 860px;
+  margin-bottom: 18px;
+  font-size: clamp(3.1rem, 7vw, 6.2rem);
+}
+
+.briefing-hero p {
+  max-width: 780px;
+  font-size: 1.12rem;
+}
+
+.briefing-document {
+  padding: clamp(22px, 4vw, 48px);
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.briefing-document h1,
+.briefing-document h2,
+.briefing-document h3 {
+  line-height: 1.12;
+}
+
+.briefing-document h1 {
+  margin-bottom: 10px;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+}
+
+.briefing-document h2 {
+  margin: 42px 0 18px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+  font-size: clamp(1.55rem, 3vw, 2.45rem);
+}
+
+.briefing-document h3 {
+  margin: 28px 0 12px;
+  color: var(--teal);
+  font-size: 1.1rem;
+}
+
+.briefing-document blockquote {
+  margin: 20px 0;
+  padding: 18px 20px;
+  color: var(--ink);
+  background: var(--soft);
+  border-left: 4px solid var(--teal);
+  border-radius: 8px;
+  font-weight: 650;
+}
+
+.briefing-document table {
+  display: block;
+  width: 100%;
+  margin: 18px 0 28px;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+.briefing-document th,
+.briefing-document td {
+  padding: 12px 14px;
+  text-align: left;
+  white-space: nowrap;
+  border-bottom: 1px solid var(--line);
+}
+
+.briefing-document th {
+  color: var(--ink);
+  background: var(--soft);
+  font-weight: 800;
+}
+
+.briefing-document tr:hover td {
+  background: rgba(238, 244, 239, 0.55);
+}
+
+.briefing-document ol,
+.briefing-document ul {
+  padding-left: 1.35rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.briefing-document li {
+  margin-bottom: 9px;
+}
+
+.briefing-document code {
+  padding: 2px 5px;
+  background: var(--soft);
+  border: 1px solid var(--line);
+  border-radius: 5px;
+}
+
+.briefing-document hr {
+  margin: 34px 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+
+.briefing-nav {
+  display: flex;
+}
+
+@media (max-width: 680px) {
+  .briefing-document {
+    width: min(100% - 24px, 1120px);
+    padding: 18px;
+  }
+
+  .briefing-document th,
+  .briefing-document td {
+    padding: 10px;
+  }
+}
