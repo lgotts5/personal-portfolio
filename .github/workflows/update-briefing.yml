@@ -2,7 +2,7 @@ name: Update Market Briefing
 
 on:
   schedule:
-    - cron: '0 14 * * 1-5'   # 9am ET / 8am CT, weekdays only
+    - cron: '0 14 * * *'     # 9am ET / 8am CT, every day
   workflow_dispatch:           # also allows manual trigger from GitHub UI
 
 jobs:
