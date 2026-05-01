@@ -166,6 +166,13 @@ p {
   margin-top: 28px;
 }
 
+.link-note {
+  font-size: 0.8rem;
+  color: var(--muted, #888);
+  font-style: italic;
+  align-self: center;
+}
+
 .button,
 .link-row a {
   display: inline-flex;
