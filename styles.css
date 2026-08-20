@@ -472,6 +472,10 @@ pre {
   --accent: var(--blue);
 }
 
+.project-adm {
+  --accent: var(--mint);
+}
+
 .project-briefing {
   --accent: var(--gold);
 }
@@ -519,6 +523,19 @@ pre {
   background:
     linear-gradient(135deg, rgba(22, 34, 31, 0.94), rgba(215, 169, 70, 0.74)),
     #16221f;
+}
+
+.pipeline {
+  background:
+    linear-gradient(135deg, rgba(13, 124, 114, 0.94), rgba(183, 242, 208, 0.5)),
+    #0d7c72;
+}
+
+.brand-logo {
+  position: relative;
+  z-index: 2;
+  width: clamp(88px, 16vw, 148px);
+  height: auto;
 }
 
 .orbit {
