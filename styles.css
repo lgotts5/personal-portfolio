@@ -480,6 +480,37 @@ pre {
   --accent: var(--gold);
 }
 
+.project-navy {
+  --accent: var(--blue);
+}
+
+.navy-dashboard {
+  background:
+    linear-gradient(135deg, rgba(14, 31, 61, 0.96), rgba(47, 110, 163, 0.86)),
+    #0e1f3d;
+}
+
+.budget-bars {
+  position: absolute;
+  inset: auto 32px 28px;
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  height: 64px;
+}
+
+.budget-bars i {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 6px 6px 0 0;
+}
+
+.budget-bars i:nth-child(1) { height: 45%; }
+.budget-bars i:nth-child(2) { height: 70%; background: rgba(215, 169, 70, 0.75); }
+.budget-bars i:nth-child(3) { height: 55%; }
+.budget-bars i:nth-child(4) { height: 90%; background: rgba(183, 242, 208, 0.7); }
+.budget-bars i:nth-child(5) { height: 62%; }
+
 .project-community {
   --accent: var(--plum);
 }
